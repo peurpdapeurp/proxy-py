@@ -34,7 +34,7 @@ def handler(signal, frame):
 
 def run_data_fetcher(str):
 
-    os.system("dc-exp " + str " /NIST/library/mainroom repo1")
+    os.system("dc-exp " + str + " /NIST/library/mainroom repo1")
     
 class OnboardListener(object):
     def __init__(self, keyChain, certificateName):
